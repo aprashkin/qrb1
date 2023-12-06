@@ -1,0 +1,114 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:qrb.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="qrb.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="qrb">
+
+   <Grid 
+        
+        ShowGridLines="True"
+        ColumnDefinitions=".3* .7* .3*"
+        RowDefinitions=".3* .3* .3*"
+        >
+        
+        <Image
+            
+            Grid.Column="1"
+            Grid.Row="0"
+            Source="../Assets/logo.png"
+            MaxHeight="200"
+            VerticalAlignment="Bottom"
+            
+        />
+        
+        <TextBlock
+            Grid.Column="1"
+            Grid.Row="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            Margin="0 0 0 35 ">
+            При поддержке /// mega.sb
+        </TextBlock>
+        
+        <Button
+            
+            Grid.Column="1" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Bottom"  
+            Background="Transparent" 
+            Content="Вход">
+         
+        </Button>
+        
+        
+        <Button
+            
+            Grid.Column="1" 
+            HorizontalAlignment="Right" 
+            VerticalAlignment="Bottom"
+            Background="Transparent"
+            Content="Регистрация"
+            Click="perehod_na_reg">
+            
+        </Button>
+        
+        <StackPanel
+            Grid.Column="1"
+            Grid.Row="1">
+            
+            <TextBox
+                Name="LogText"
+                Watermark="Логин"
+                Margin="0 10 1 5"
+                FontSize="15"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"
+                CornerRadius="5">
+            </TextBox>
+            
+            <TextBox
+                Name="ParolText"
+                Watermark="Пароль"
+                Margin="0 5 1 10"
+                FontSize="15"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"
+                CornerRadius="5"
+                PasswordChar="*">
+            </TextBox>
+            
+            
+        </StackPanel>
+        
+        <StackPanel
+            Grid.Column="1"
+            Grid.Row="2">
+            
+            <Button
+                Margin="0 5 0 0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Content="Войти"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                Background="Black"
+                Foreground="White"
+                Width="215">
+                
+            </Button>
+            
+            
+        </StackPanel>
+        
+        
+        
+        
+        
+        
+    </Grid>
+</Window>
