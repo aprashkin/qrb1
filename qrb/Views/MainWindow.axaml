@@ -3,15 +3,16 @@
         xmlns:vm="using:qrb.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+        Width="1920" Height="1080"
         x:Class="qrb.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/qrb.png"
         Title="qrb">
 
    <Grid 
         
-        ShowGridLines="True"
+        ShowGridLines="False"
         ColumnDefinitions=".3* .7* .3*"
         RowDefinitions=".3* .3* .3*"
         >
@@ -20,8 +21,8 @@
             
             Grid.Column="1"
             Grid.Row="0"
-            Source="../Assets/logo.png"
-            MaxHeight="200"
+            Source="../Assets/qrb.png"
+            MaxHeight="400"
             VerticalAlignment="Bottom"
             
         />
@@ -32,7 +33,7 @@
             HorizontalAlignment="Center"
             VerticalAlignment="Bottom"
             Margin="0 0 0 35 ">
-            При поддержке /// mega.sb
+            
         </TextBlock>
         
         <Button

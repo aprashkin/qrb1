@@ -25,3 +25,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/prdb/RiderProjects/qrb/qrb/Views/registration.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/prdb/RiderProjects/qrb/qrb/Views/regyspeh.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

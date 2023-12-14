@@ -6,6 +6,7 @@
         <entry key="qrb/Views/MainMenu.axaml" value="qrb/qrb.csproj" />
         <entry key="qrb/Views/MainWindow.axaml" value="qrb/qrb.csproj" />
         <entry key="qrb/Views/registration.axaml" value="qrb/qrb.csproj" />
+        <entry key="qrb/Views/regyspeh.axaml" value="qrb/qrb.csproj" />
       </map>
     </option>
   </component>

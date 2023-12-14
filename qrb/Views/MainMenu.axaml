@@ -12,10 +12,11 @@
         <Image
             Grid.Column="0"
             Grid.Row="0"
-            Source="../Assets/logo.png"
-            Height="150"
-            VerticalAlignment="Bottom"
-            HorizontalAlignment="Center"/>
+            Source="../Assets/qrb.png"
+            Height="180"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Margin=" 0 0 0 0 "/>
         
         <TextBox
             Grid.Column="1"
@@ -177,7 +178,7 @@
                        VerticalAlignment="Center"
                        HorizontalAlignment="Right">
                        <Image
-                           Source="../Assets/notification.png"
+                           Source="../Assets/shoppingcart.png"
                            Height="70"
                            VerticalAlignment="Center"
                        />
@@ -204,8 +205,8 @@
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center">
                     <Image
-                        Source="../Assets/logo.png"
-                        
+                        Source="../Assets/avalonia-logo.ico"
+                        Height="140"
                         VerticalAlignment="Center"
                     />
                        
@@ -214,7 +215,13 @@
                
 
         </StackPanel> 
+        
+        <StackPanel
+            Grid.Column="1"
+            Grid.Row="1">
             
+            
+        </StackPanel>
         
         </Grid>
 </Window>
