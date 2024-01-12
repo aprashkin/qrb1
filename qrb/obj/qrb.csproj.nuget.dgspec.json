@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prdb\\RiderProjects\\qrb\\qrb\\qrb.csproj": {}
+    "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\qrb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prdb\\RiderProjects\\qrb\\qrb\\qrb.csproj": {
+    "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\qrb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prdb\\RiderProjects\\qrb\\qrb\\qrb.csproj",
+        "projectUniqueName": "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\qrb.csproj",
         "projectName": "qrb",
-        "projectPath": "C:\\Users\\prdb\\RiderProjects\\qrb\\qrb\\qrb.csproj",
+        "projectPath": "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\qrb.csproj",
         "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prdb\\RiderProjects\\qrb\\qrb\\obj\\",
+        "outputPath": "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

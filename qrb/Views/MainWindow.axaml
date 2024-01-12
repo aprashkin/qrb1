@@ -12,7 +12,7 @@
 
    <Grid 
         
-        ShowGridLines="False"
+        ShowGridLines="True"
         ColumnDefinitions=".3* .7* .3*"
         RowDefinitions=".3* .3* .3*"
         >
@@ -109,7 +109,20 @@
         
         
         
-        
+        <Border
+            Grid.Row="1"
+            Grid.Column="1"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="10 90 0 0 "
+            x:Name="ErrorBorder"
+            IsVisible="False"
+        >
+            <TextBlock
+                Foreground="Red">
+                Неправильный логин или пароль
+            </TextBlock>
+        </Border>
         
         
     </Grid>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UUddw+OEsh01idXQfA4lBI63Sgylz8s2x4OSv4cK8nyxAOtri2OVUWJPcdQlKmDStqcfPqraDfPxfoG09qHrxg==",
+  "dgSpecHash": "F8wQvrNoLJw94W2rQclhRQWaatk0OAwkOVAMf8zRJWfGuPKtOh/06cDFBa3AZYTJdEIcqT1RQKf7hFNviscRrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prdb\\RiderProjects\\qrb\\qrb\\qrb.csproj",
+  "projectFilePath": "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\qrb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prdb\\.nuget\\packages\\avalonia\\0.10.19\\avalonia.0.10.19.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2020091801\\avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",

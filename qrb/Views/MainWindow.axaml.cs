@@ -1,6 +1,9 @@
+using System.Linq;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Media;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using qrb.Models;
 
 namespace qrb.Views;
 
@@ -13,31 +16,24 @@ public partial class MainWindow : Window
 
     private void perehod_na_reg(object? sender, RoutedEventArgs e)
     {
-        new registration().Show();
+        new Registration().Show();
         Close();
     }
 
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
-        if (LogText.Text == "admin")
+        Users users =
+            Registration.Users.FirstOrDefault(u => u.Username == LogText.Text && u.Password == ParolText.Text);
+
+        if (users is null)
         {
-            if (ParolText.Text == "admin")
-            {
-                new MainMenu().Show();
-                Close();
-            }
-            else
-            {
-                ParolText.Background = Brushes.IndianRed;
-                
-                ParolText.Watermark = "Неверный пароль";
-            }
+            ErrorBorder.IsVisible = true;
+
         }
         else
         {
-            LogText.Background = Brushes.IndianRed;
-            
-            LogText.Watermark = "Неверный логин";
+            new MainMenu().Show();
+            this.Close();
         }
     }
 }

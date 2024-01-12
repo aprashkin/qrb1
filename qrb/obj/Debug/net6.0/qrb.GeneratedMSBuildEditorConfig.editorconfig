@@ -12,19 +12,19 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = qrb
-build_property.ProjectDir = C:\Users\prdb\RiderProjects\qrb\qrb\
+build_property.ProjectDir = C:\Users\prdb\RiderProjects\qrb1\qrb\
 
-[C:/Users/prdb/RiderProjects/qrb/qrb/App.axaml]
+[C:/Users/prdb/RiderProjects/qrb1/qrb/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/prdb/RiderProjects/qrb/qrb/Views/MainMenu.axaml]
+[C:/Users/prdb/RiderProjects/qrb1/qrb/Views/MainMenu.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/prdb/RiderProjects/qrb/qrb/Views/MainWindow.axaml]
+[C:/Users/prdb/RiderProjects/qrb1/qrb/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/prdb/RiderProjects/qrb/qrb/Views/registration.axaml]
+[C:/Users/prdb/RiderProjects/qrb1/qrb/Views/registration.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/prdb/RiderProjects/qrb/qrb/Views/regyspeh.axaml]
+[C:/Users/prdb/RiderProjects/qrb1/qrb/Views/regyspeh.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
