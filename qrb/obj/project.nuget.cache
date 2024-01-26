@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F8wQvrNoLJw94W2rQclhRQWaatk0OAwkOVAMf8zRJWfGuPKtOh/06cDFBa3AZYTJdEIcqT1RQKf7hFNviscRrg==",
+  "dgSpecHash": "Wi2ak7HTt/sgZnKDMYm0N46Ohh5MImJbNlmINDjmhTdrQcgFeXQEw+HJ5gbfB6UQ/r7RlqGXyUhu3oAXPC6xzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\prdb\\RiderProjects\\qrb1\\qrb\\qrb.csproj",
   "expectedPackageFiles": [
@@ -29,9 +29,12 @@
     "C:\\Users\\prdb\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\3.4.0\\microsoft.codeanalysis.csharp.scripting.3.4.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.4.0\\microsoft.codeanalysis.scripting.common.3.4.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\reactiveui\\13.2.10\\reactiveui.13.2.10.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\skiasharp\\2.88.1-preview.108\\skiasharp.2.88.1-preview.108.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.1-preview.108\\skiasharp.nativeassets.linux.2.88.1-preview.108.nupkg.sha512",
@@ -43,6 +46,7 @@
     "C:\\Users\\prdb\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
@@ -63,7 +67,7 @@
     "C:\\Users\\prdb\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\prdb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
@@ -71,12 +75,18 @@
     "C:\\Users\\prdb\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\tmds.dbus\\0.9.0\\tmds.dbus.0.9.0.nupkg.sha512",
-    "C:\\Users\\prdb\\.nuget\\packages\\xamlnamereferencegenerator\\1.6.1\\xamlnamereferencegenerator.1.6.1.nupkg.sha512"
+    "C:\\Users\\prdb\\.nuget\\packages\\xamlnamereferencegenerator\\1.6.1\\xamlnamereferencegenerator.1.6.1.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\prdb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

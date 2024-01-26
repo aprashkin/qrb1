@@ -12,6 +12,7 @@
           "Avalonia.Desktop": "0.10.19",
           "Avalonia.Diagnostics": "0.10.19",
           "Avalonia.ReactiveUI": "0.10.19",
+          "Npgsql": "8.0.1",
           "XamlNameReferenceGenerator": "1.6.1"
         },
         "runtime": {
@@ -25,7 +26,7 @@
           "System.ComponentModel.Annotations": "4.5.0",
           "System.Memory": "4.5.3",
           "System.Reactive": "5.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.ValueTuple": "4.5.0"
         },
         "runtime": {
@@ -357,7 +358,7 @@
           "System.Collections.Immutable": "1.5.0",
           "System.Memory": "4.5.3",
           "System.Reflection.Metadata": "1.6.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encoding.CodePages": "4.5.1",
           "System.Threading.Tasks.Extensions": "4.5.3"
         },
@@ -588,6 +589,25 @@
           "System.Threading": "4.3.0"
         }
       },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/2.1.2": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.SystemEvents/4.5.0": {
@@ -606,6 +626,20 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Npgsql/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "System.Diagnostics.DiagnosticSource": "8.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Json": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
           }
         }
       },
@@ -713,6 +747,17 @@
           "Microsoft.NETCore.Platforms": "2.1.2",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/8.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
         }
       },
       "System.Drawing.Common/4.5.0": {
@@ -886,7 +931,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -928,7 +973,38 @@
       "System.Text.Encoding.CodePages/4.5.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Text.Json/8.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
         }
       },
       "System.Threading/4.3.0": {
@@ -1142,6 +1218,20 @@
       "path": "microsoft.csharp/4.3.0",
       "hashPath": "microsoft.csharp.4.3.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -1162,6 +1252,13 @@
       "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
       "path": "microsoft.win32.systemevents/4.5.0",
       "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "Npgsql/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/XQX6n2gKQPnRoP5AhOnz33qL5V6CEY2vqluHPIvK4VZqY/sE/dHOFj+/8Ok7Y5Cbkj6/OZOFLZCiaKcryhS9A==",
+      "path": "npgsql/8.0.1",
+      "hashPath": "npgsql.8.0.1.nupkg.sha512"
     },
     "ReactiveUI/13.2.10": {
       "type": "package",
@@ -1239,6 +1336,13 @@
       "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
     },
     "System.Drawing.Common/4.5.0": {
       "type": "package",
@@ -1380,12 +1484,12 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
-      "path": "system.runtime.compilerservices.unsafe/4.6.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
@@ -1435,6 +1539,20 @@
       "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
       "path": "system.text.encoding.codepages/4.5.1",
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+      "path": "system.text.json/8.0.0",
+      "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     },
     "System.Threading/4.3.0": {
       "type": "package",

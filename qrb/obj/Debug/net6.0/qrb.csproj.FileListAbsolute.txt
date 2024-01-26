@@ -264,3 +264,11 @@ C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\refint\qrb.dll
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.pdb
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.genruntimeconfig.cache
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\ref\qrb.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.sourcelink.json
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\Npgsql.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
