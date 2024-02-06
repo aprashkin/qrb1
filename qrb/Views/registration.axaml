@@ -17,14 +17,17 @@
             MaxHeight="400"
             VerticalAlignment="Top"
         />
+        
+        
         <TextBlock
             Grid.Column="1"
             Grid.Row="0"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Margin="0 0 0 0 ">
-            
         </TextBlock>
+        
+        
         <Button
             Grid.Column="1" 
             HorizontalAlignment="Left" 
@@ -33,6 +36,8 @@
             Content="Вход"
             Click="perehod_na_vhod">
         </Button>
+        
+        
         <Button
             
             Grid.Column="1" 
@@ -54,6 +59,7 @@
                 HorizontalContentAlignment="Left"
                 CornerRadius="5">
             </TextBox>
+            
             <TextBox
                 Watermark="Пароль"
                 Margin="0 5 1 10"
@@ -64,6 +70,7 @@
                 PasswordChar="*"
                 x:Name="parol1">
             </TextBox>
+            
             <TextBox
                 Name="ParolText2"
                 Watermark="Повторите пароль"
@@ -73,14 +80,15 @@
                 HorizontalContentAlignment="Left"
                 CornerRadius="5"
                 PasswordChar="*"
-                
                 x:Name="parol2">
             </TextBox>
+            
             <Image
                 Source="../Assets/captcha.png"
-                Width="350">
-            </Image>
+                Width="350"/>
         </StackPanel>
+        
+        
         <TextBox
                 Grid.Column="1"
                 Grid.Row="1"
@@ -114,6 +122,5 @@
                 Click="Button_OnClick"> 
             </Button>
         </StackPanel>
-        
     </Grid>
 </Window>

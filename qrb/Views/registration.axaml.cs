@@ -19,7 +19,7 @@ public partial class Registration : Window
     public static List<Users> Users = new();
     public Registration()
     {
-        var connectionString = "";
+        var connectionString = "Host=195.161.68.211;Port=49212;Username=danya;Password=vapeetozlo;Database=postgres";
         dataSource = NpgsqlDataSource.Create(connectionString);
         InitializeComponent();
         vas();
@@ -27,11 +27,11 @@ public partial class Registration : Window
 
     private void vas()
     {
-        using (var cmd = dataSource.CreateCommand($"select username from autorise where id = 2"))
+        using (var cmd = dataSource.CreateCommand($"select login from users where id = 1"))
         { 
             var reader = cmd.ExecuteReader();
             reader.Read();
-            Login1.Watermark = reader[0].ToString();
+            
         }
 
     
@@ -45,12 +45,9 @@ public partial class Registration : Window
     {
 
     
-        Login1.Text = log;
-        parol1.Text = par1;
-        parol2.Text = par2;
         
 
-        if (string.IsNullOrEmpty(log))
+        /*if (string.IsNullOrEmpty(log))
         {
             Login1.Watermark = "Необходимо заполнить";
             Login1.Foreground = Brushes.Red;
@@ -71,14 +68,14 @@ public partial class Registration : Window
         if (!string.IsNullOrEmpty(log) || !string.IsNullOrEmpty(par1) ||
             !string.IsNullOrEmpty(par2))
         {
-            using (var cmd = dataSource.CreateCommand("INSERT INTO autorise (username, password) VALUES ($1, $2)"))
-            {
-                cmd.Parameters.AddWithValue(Login1.Text);
-                cmd.Parameters.AddWithValue(ParolText2.Text);
-                cmd.ExecuteNonQuery();
-            }
+            
+        }*/
+        using (var cmd = dataSource.CreateCommand("INSERT INTO users (login, password) VALUES ($1, $2)"))
+        {
+            cmd.Parameters.AddWithValue(Login1.Text);
+            cmd.Parameters.AddWithValue(ParolText2.Text);
+            cmd.ExecuteNonQuery();
         }
-        
         MainWindow main = new MainWindow();                          
         main.Show();
         this.Close();
