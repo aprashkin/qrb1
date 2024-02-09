@@ -7,7 +7,7 @@
         x:Class="qrb.Views.MainMenu"
         Title="MainMenu">
  <Grid
-               ShowGridLines="False"
+               ShowGridLines="True "
                RowDefinitions=".1* .2* .2* .2*"
                ColumnDefinitions=".1* .4* .2* .1* ">
         <Image
@@ -77,6 +77,7 @@
                     FontSize="30"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
+                    Click="Button_OnClick"
                 />
             </StackPanel>
             

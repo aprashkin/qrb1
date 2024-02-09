@@ -27,9 +27,11 @@ public partial class MainWindow : Window
 
     
     }
+
+    
     public MainWindow()
     {
-        var connectionString = "Host=;Port=;Username=;Password=;Database=";
+        var connectionString = "Host=;Port=;Username=;Password=;Database=postgres";
         dataSource = NpgsqlDataSource.Create(connectionString);
         InitializeComponent();
         vas();
@@ -55,9 +57,8 @@ public partial class MainWindow : Window
             if (reader.Read())
             {
                 int count = reader.GetInt32(0);
-                
-                
                 new MainMenu().Show();
+                Close();
             }
         }
         

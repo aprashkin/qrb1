@@ -1,0 +1,232 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:qrb.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+        x:Class="qrb.Views.magazines"
+        x:DataType="vm:MainWindowViewModel"
+        WindowStartupLocation="CenterOwner"
+        Title="magazines">
+    <Grid
+        ShowGridLines="True "
+        RowDefinitions=".1* .2* .2* .2*"
+        ColumnDefinitions=".1* .4*  .2* .1* ">
+        <Image
+            Grid.Column="0"
+            Grid.Row="0"
+            Source="../Assets/qrb.png"
+            Height="180"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Margin=" 0 0 0 0 "/>
+        
+        <Grid
+            Grid.Row="0"
+            Grid.Column="1"
+            ShowGridLines="False"
+            ColumnDefinitions=".1* .1* .1*">
+            
+           <StackPanel
+               
+               Orientation="Horizontal">
+               
+               <Button
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Background="Transparent">
+                   <StackPanel
+                       Orientation="Horizontal"> 
+                      <Image
+                          Source="../Assets/burger.png"
+                          Height="40"/>
+                      <TextBlock
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Right"
+                          Margin="15 0 0 0"
+                          FontSize="30">
+                          Каталог
+                       
+                      </TextBlock>
+                  </StackPanel>
+               </Button>
+           </StackPanel>
+            
+            <StackPanel
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Grid.Column="1">
+                <Button
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Height="60"
+                    Width="170"
+                    Background="Transparent"
+                    Content="Магазины"
+                    FontSize="30"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                />
+            </StackPanel>
+            
+            <StackPanel
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Grid.Column="2">
+                <Button
+                    
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Height="50"
+                    Width="170"
+                    Background="Transparent"
+                    Content="Форум"
+                    FontSize="30"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                />
+            </StackPanel>
+        </Grid>
+        
+        <Grid
+            Grid.Row="1"
+            Grid.Column="1"
+            ShowGridLines="True"
+            ColumnDefinitions=".1* .1*">
+            
+            <StackPanel >
+                <TextBox
+                    TextAlignment="Center"
+                    Height="50"
+                    CornerRadius="10"
+                    BorderThickness="2"
+                    BorderBrush="Black"
+                    FontSize="25"
+                    Text="{Binding ShopName}"
+                    Watermark="Введите название магазина">
+                </TextBox>
+                
+                <TextBox
+                    Margin="0 20 0 0 "
+                    TextAlignment="Center"
+                    Height="50"
+                    CornerRadius="10"
+                    BorderThickness="2"
+                    BorderBrush="Black"
+                    FontSize="25"
+                    Text="{Binding ShopSpecialization}"
+                    Watermark="Введите специализацию магазина">
+                </TextBox>
+                
+                <Button
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="0 20 0 0 "
+                    Height="50"
+                    Width="200"
+                    CornerRadius="10 10 20 20 "
+                    Background="Black"
+                    Content="Добавить"
+                    Foreground="White"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    FontSize="25"
+                    Command="{Binding ECommand}"
+                    />
+            </StackPanel>
+        </Grid>
+        
+        <ListBox
+            Grid.Column="2"
+            Grid.Row="1"
+            Background="White"
+            ItemsSource="{Binding Shops}"
+            >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1"
+                            CornerRadius="4" Padding="4"
+                            >
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name, StringFormat='Название: {0}'}"/>
+                            <TextBlock Text="{Binding Specialization, StringFormat='Специализация: {0}'}"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        
+        <Grid
+           Grid.Row="0"
+           Grid.Column="2"
+           ShowGridLines="False"
+           ColumnDefinitions=".1* .1* .1* .1* .1*">
+           
+           
+           
+           <StackPanel
+               Grid.Column="1"
+               VerticalAlignment="Center">
+               <Button
+                   HorizontalAlignment="Center"
+                   
+                   Background="Transparent">
+                   <StackPanel
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center">
+                       <Image
+                           Source="../Assets/message.png"
+                           Height="50"
+                           VerticalAlignment="Center"
+                           />
+                       
+                   </StackPanel>
+               </Button>
+           </StackPanel>
+           
+           <StackPanel
+               Grid.Column="2"
+               VerticalAlignment="Center">
+               <Button
+                   HorizontalAlignment="Center"
+                   
+                   Background="Transparent">
+                   <StackPanel
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center">
+                       <Image
+                           Source="../Assets/notification.png"
+                           Height="50"
+                           VerticalAlignment="Center"
+                       />
+                       
+                   </StackPanel>
+               </Button>
+           </StackPanel>
+           
+           <StackPanel
+               Grid.Column="3"
+               VerticalAlignment="Center">
+               <Button
+                   HorizontalAlignment="Center"
+                   
+                   Background="Transparent">
+                   <StackPanel
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center">
+                       <Image
+                           Source="../Assets/shoppingcart.png"
+                           Height="50"
+                           VerticalAlignment="Center"
+                       />
+                       
+                   </StackPanel>
+               </Button>
+           </StackPanel>
+           
+           
+           
+       </Grid>
+        
+    </Grid>
+</Window>

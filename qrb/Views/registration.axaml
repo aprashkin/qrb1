@@ -6,7 +6,7 @@
         x:Class="qrb.Views.Registration"
         Title="registration">
     <Grid 
-        ShowGridLines="True"
+        ShowGridLines="False"
         ColumnDefinitions=".3* .7* .3*"
         RowDefinitions=".3* .3* .3*">
         <Image

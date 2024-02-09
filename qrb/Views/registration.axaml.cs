@@ -37,9 +37,7 @@ public partial class Registration : Window
     
     }
     
-    public string log;
-    public string par1;
-    public string par2;
+    
 
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
