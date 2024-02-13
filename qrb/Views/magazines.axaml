@@ -6,7 +6,7 @@
         mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
         x:Class="qrb.Views.magazines"
         x:DataType="vm:MainWindowViewModel"
-        WindowStartupLocation="CenterOwner"
+        WindowStartupLocation="CenterScreen"
         Title="magazines">
     <Grid
         ShowGridLines="True "
@@ -144,7 +144,7 @@
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Gray" BorderThickness="1"
+                    <Border BorderBrush="White" BorderThickness="3"
                             CornerRadius="4" Padding="4"
                             >
                         <StackPanel>

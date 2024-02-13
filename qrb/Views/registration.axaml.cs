@@ -19,7 +19,7 @@ public partial class Registration : Window
     public static List<Users> Users = new();
     public Registration()
     {
-        var connectionString = "Host=;Port=;Username=;Password=;Database=";
+        var connectionString = "Host=;Port=;;Password=;Database=postgres";
         dataSource = NpgsqlDataSource.Create(connectionString);
         InitializeComponent();
         vas();

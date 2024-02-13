@@ -5,6 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
         Width="1920" Height="1080"
         x:Class="qrb.Views.MainMenu"
+        WindowStartupLocation="CenterScreen"
         Title="MainMenu">
  <Grid
                ShowGridLines="True "

@@ -24,8 +24,6 @@ public partial class MainWindow : Window
             var reader = cmd.ExecuteReader();
             reader.Read();
         }
-
-    
     }
 
     
@@ -42,7 +40,7 @@ public partial class MainWindow : Window
     private void perehod_na_reg(object? sender, RoutedEventArgs e)
     {
         new Registration().Show();
-        Close();
+        Close(); 
     }
     
 
@@ -57,11 +55,17 @@ public partial class MainWindow : Window
             if (reader.Read())
             {
                 int count = reader.GetInt32(0);
-                new MainMenu().Show();
-                Close();
+                if (count == 1)
+                {
+                    new MainMenu().Show();
+                    Close();
+                }
+                else
+                {
+                    ErrorBlock.IsVisible = true;
+                }
             }
         }
-        
     }
 
     
