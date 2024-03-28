@@ -29,7 +29,7 @@ public partial class MainWindow : Window
     
     public MainWindow()
     {
-        var connectionString = "Host=;Port=;Username=;Password=;Database=postgres";
+        var connectionString = "Host=195.161.68.211;Port=49212;Username=danya;Password=vapeetozlo;Database=postgres";
         dataSource = NpgsqlDataSource.Create(connectionString);
         InitializeComponent();
         vas();

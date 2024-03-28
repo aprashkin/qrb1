@@ -223,10 +223,42 @@
                    </StackPanel>
                </Button>
            </StackPanel>
-           
-           
-           
        </Grid>
         
+        
+        <StackPanel
+            Orientation="Horizontal"
+            HorizontalAlignment="Stretch"
+            Grid.Column="2"
+            Grid.Row="2">
+            
+            <Button
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="35 20 10 0 "
+                Height="50"
+                Width="200"
+                CornerRadius="10 0 0 50 "
+                Background="Black"
+                Content="Добавить"
+                Foreground="White"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="25"/>
+            
+            <Button
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="0 20 0 0 "
+                Height="50"
+                Width="200"
+                CornerRadius="0 10 50 0 "
+                Background="Black"
+                Content="Удалить"
+                Foreground="White"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="25"/>
+        </StackPanel>
     </Grid>
 </Window>

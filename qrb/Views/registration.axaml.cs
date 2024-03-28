@@ -16,10 +16,10 @@ public partial class Registration : Window
 {
     private NpgsqlDataSource dataSource;
     
-    public static List<Users> Users = new();
+   
     public Registration()
     {
-        var connectionString = "Host=;Port=;;Password=;Database=postgres";
+        var connectionString = "Host=195.161.68.211;Port=49212;Username =danya;Password=vapeetozlo;Database=postgres";
         dataSource = NpgsqlDataSource.Create(connectionString);
         InitializeComponent();
         vas();
@@ -33,18 +33,10 @@ public partial class Registration : Window
             reader.Read();
             
         }
-
-    
     }
     
-    
-
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
-
-    
-        
-
         /*if (string.IsNullOrEmpty(log))
         {
             Login1.Watermark = "Необходимо заполнить";

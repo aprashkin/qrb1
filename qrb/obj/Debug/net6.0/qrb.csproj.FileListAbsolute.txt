@@ -241,7 +241,6 @@ C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.GeneratedMSBuildEditor
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.AssemblyInfoInputs.cache
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.AssemblyInfo.cs
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.csproj.CoreCompileInputs.cache
-C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.csproj.CopyComplete
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.dll
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\refint\qrb.dll
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.pdb
@@ -270,3 +269,4 @@ C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\Avalonia\references
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\Avalonia\original.dll
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\Avalonia\original.pdb
 C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\Avalonia\original.ref.dll
+C:\Users\prdb\RiderProjects\qrb1\qrb\obj\Debug\net6.0\qrb.csproj.Up2Date

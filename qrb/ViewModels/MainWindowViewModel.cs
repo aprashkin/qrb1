@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections;
+using System.Collections.ObjectModel;
 using System.Reactive;
 using System.Windows.Input;
 using DynamicData;
@@ -21,6 +22,7 @@ public class MainWindowViewModel : ViewModelBase
     {
         Shops = new ObservableCollection<Shop>();
         ECommand = ReactiveCommand.Create(NewShop);
+        /*RemoveSelectedShopsCommand = new RelayCommand<IList>(RemoveSelectedShops);*/
     }
 
     private void NewShop()
@@ -28,4 +30,13 @@ public class MainWindowViewModel : ViewModelBase
         Shops.Add(new Shop(ShopName, ShopSpecialization));
     }
     
+    public ICommand RemoveSelectedShopsCommand { get;  }
+
+    private void RemoveSelectedShops(IList selectedShops)
+    {
+        foreach (Shop shop in selectedShops)
+        {
+            Shops.Remove(shop);
+        }
+    }
 }
